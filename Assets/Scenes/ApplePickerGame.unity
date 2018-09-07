@@ -275,7 +275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8af4771063ded743accdecebb7df704, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applePrefab: {fileID: 0}
+  applePrefab: {fileID: 1997740129015762, guid: 57fda6af9893a9541b83a4fd2824e1ae,
+    type: 2}
   speed: 1
   leftAndRightEdge: 10
   chanceToChangeDirections: 0.1
@@ -318,6 +319,11 @@ Prefab:
     - target: {fileID: 4315942063833706, guid: acf507170e3f66540a9a3c6c75c0c7d3, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 54306146945808906, guid: acf507170e3f66540a9a3c6c75c0c7d3,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: acf507170e3f66540a9a3c6c75c0c7d3, type: 2}
