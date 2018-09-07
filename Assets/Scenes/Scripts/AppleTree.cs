@@ -40,5 +40,9 @@ public class AppleTree : MonoBehaviour
         {
             speed = -Mathf.Abs(speed); // Move left
         }
+        else if ( Random.value < chanceToChangeDirections)
+        {
+            speed *= -1;    // Change direction
+        }
     }
 }
